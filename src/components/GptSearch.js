@@ -6,7 +6,7 @@ import backLogo from "../img/background.jpg";
 const GptSearch = () => {
   return (
     <div>
-      <div className="absolute w-full -z-10">
+      <div className="fixed w-full -z-10">
         <img
           className="w-full left-0 right-0 mx-auto"
           src={backLogo}
